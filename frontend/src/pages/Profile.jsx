@@ -35,7 +35,7 @@ const Modal = ({ isOpen, onClose, title, children }) => {
   );
 };
 
-export default function ProfilePage() {
+export default function Profile() {
   const [profileImage, setProfileImage] = useState(null);
   const [showEditPage, setShowEditPage] = useState(false);
   const [activeSection, setActiveSection] = useState('profile');
@@ -663,4 +663,3 @@ export default function ProfilePage() {
   );
 }
 
-export default Profile;
